@@ -3,10 +3,12 @@
 }
 header{
     background-color: black;
+    height: 60px;
+    justify-content: center;
 }
 a{
     background-color: transparent;
-    color: yellow;
+    color: rgb(245, 245, 184);
     text-decoration: none;
 }
 body{
@@ -14,11 +16,12 @@ body{
     text-align: center;
 }
 h1{
-    color: yellow;
+    color: rgb(245, 245, 184);
+    font-size: 50;
     
 }
 h4{
-    color: rgb(255, 230, 0);
+    color: rgb(245, 245, 184);
 }
 
 button a{
@@ -26,5 +29,56 @@ button a{
     text-decoration: none;
 }
 button{
-    background-color:  rgb(255, 230, 0)
+    background-color:  rgb(245, 245, 184)
+}
+
+
+nav{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(245, 245, 184);
+}
+.logo{
+    display: flex;
+    margin-top: 17px;
+}
+
+.logo h3{
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+ul{
+    margin-top: 17px;
+    list-style: none;
+    display: flex;
+}
+
+ul li a{
+    margin-right: 18px;
+}
+
+a:hover{
+    background-color: black;
+    border-radius: 2px solid yellow;
+}
+footer {
+   margin-top: 500px;
+   margin-right: 1720px;
+ 
+}
+
+section{
+    margin-top: 200px ;
+}
+.botao button{
+    background-color: red;
+}
+.boao2 button{
+    background-color: #25D366;
+}
+footer{
+    align-items: center;
 }
